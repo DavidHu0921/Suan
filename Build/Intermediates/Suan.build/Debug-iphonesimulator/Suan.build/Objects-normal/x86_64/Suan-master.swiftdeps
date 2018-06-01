@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "83678bb42f3651efa915ad25cc0e5b91"
+build_time: [1527862452, 200070000]
+inputs:
+  "/Users/DavidHu/Work/Suan/Suan/SecondViewController.swift": [1527862447, 0]
+  "/Users/DavidHu/Work/Suan/Suan/AppDelegate.swift": [1527862447, 0]
+  "/Users/DavidHu/Work/Suan/Suan/FirstViewController.swift": [1527862447, 0]
