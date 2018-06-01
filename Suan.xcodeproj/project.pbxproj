@@ -15,6 +15,10 @@
 		68122B0420C18C3000B7F355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68122B0220C18C3000B7F355 /* LaunchScreen.storyboard */; };
 		68122B0F20C18C3000B7F355 /* SuanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B0E20C18C3000B7F355 /* SuanTests.swift */; };
 		68122B1A20C18C3000B7F355 /* SuanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B1920C18C3000B7F355 /* SuanUITests.swift */; };
+		68122B2920C18FE900B7F355 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68122B2720C18FE800B7F355 /* IQKeyboardManagerSwift.framework */; };
+		68122B2A20C18FE900B7F355 /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68122B2720C18FE800B7F355 /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		68122B2B20C18FE900B7F355 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68122B2820C18FE900B7F355 /* Charts.framework */; };
+		68122B2C20C18FE900B7F355 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68122B2820C18FE900B7F355 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		68122B2D20C18FE900B7F355 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				68122B2A20C18FE900B7F355 /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
+				68122B2C20C18FE900B7F355 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		68122AF420C18C2F00B7F355 /* Suan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68122AF720C18C2F00B7F355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,8 @@
 		68122B1520C18C3000B7F355 /* SuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68122B1920C18C3000B7F355 /* SuanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanUITests.swift; sourceTree = "<group>"; };
 		68122B1B20C18C3000B7F355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68122B2720C18FE800B7F355 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		68122B2820C18FE900B7F355 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68122B2920C18FE900B7F355 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				68122B2B20C18FE900B7F355 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +102,8 @@
 		68122AEB20C18C2F00B7F355 = {
 			isa = PBXGroup;
 			children = (
+				68122B2820C18FE900B7F355 /* Charts.framework */,
+				68122B2720C18FE800B7F355 /* IQKeyboardManagerSwift.framework */,
 				68122AF620C18C2F00B7F355 /* Suan */,
 				68122B0D20C18C3000B7F355 /* SuanTests */,
 				68122B1820C18C3000B7F355 /* SuanUITests */,
@@ -138,6 +163,8 @@
 				68122AF020C18C2F00B7F355 /* Sources */,
 				68122AF120C18C2F00B7F355 /* Frameworks */,
 				68122AF220C18C2F00B7F355 /* Resources */,
+				68122B2D20C18FE900B7F355 /* Embed Frameworks */,
+				68122B2E20C1904500B7F355 /* Autoincrement Build Number Script */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68122B2E20C1904500B7F355 /* Autoincrement Build Number Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Autoincrement Build Number Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68122AF020C18C2F00B7F355 /* Sources */ = {
@@ -436,6 +480,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RH8SYCWZN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Suan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +502,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RH8SYCWZN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Suan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
