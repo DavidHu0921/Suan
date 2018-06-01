@@ -19,6 +19,7 @@
 		68122B2C20C18FE900B7F355 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68122B2820C18FE900B7F355 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		68122B3320C194A200B7F355 /* SuanConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3220C194A200B7F355 /* SuanConfigViewController.swift */; };
 		68122B3520C194AE00B7F355 /* SuanProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3420C194AE00B7F355 /* SuanProfileViewController.swift */; };
+		68122B3820C1979800B7F355 /* SuanPuzzlesConfigStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		68122B2820C18FE900B7F355 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
 		68122B3220C194A200B7F355 /* SuanConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanConfigViewController.swift; sourceTree = "<group>"; };
 		68122B3420C194AE00B7F355 /* SuanProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanProfileViewController.swift; sourceTree = "<group>"; };
+		68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanPuzzlesConfigStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				68122AFD20C18C2F00B7F355 /* Main.storyboard */,
 				68122B3120C1948700B7F355 /* Config */,
 				68122B3020C1948700B7F355 /* Profile */,
+				68122B3620C1974B00B7F355 /* DataStruct */,
 				68122B0020C18C3000B7F355 /* Assets.xcassets */,
 				68122B0220C18C3000B7F355 /* LaunchScreen.storyboard */,
 				68122B0520C18C3000B7F355 /* Info.plist */,
@@ -167,6 +170,14 @@
 				68122B3220C194A200B7F355 /* SuanConfigViewController.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		68122B3620C1974B00B7F355 /* DataStruct */ = {
+			isa = PBXGroup;
+			children = (
+				68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */,
+			);
+			path = DataStruct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +352,7 @@
 				68122AF820C18C2F00B7F355 /* AppDelegate.swift in Sources */,
 				68122B3320C194A200B7F355 /* SuanConfigViewController.swift in Sources */,
 				68122B3520C194AE00B7F355 /* SuanProfileViewController.swift in Sources */,
+				68122B3820C1979800B7F355 /* SuanPuzzlesConfigStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
