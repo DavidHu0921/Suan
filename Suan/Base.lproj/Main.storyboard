@@ -247,14 +247,27 @@
             </objects>
             <point key="canvasLocation" x="-410.39999999999998" y="865.81709145427294"/>
         </scene>
-        <!--View Controller-->
+        <!--Suan Details View Controller-->
         <scene sceneID="Yfp-sZ-dKT">
             <objects>
-                <viewController id="ZIK-WX-3Id" sceneMemberID="viewController">
+                <viewController id="ZIK-WX-3Id" customClass="SuanDetailsViewController" customModule="Suan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mfl-i8-Sny">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3h-7W-qeC">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backBackButtonACtion:" destination="ZIK-WX-3Id" eventType="touchUpInside" id="vWH-xX-ujO"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="P3h-7W-qeC" firstAttribute="centerX" secondItem="Mfl-i8-Sny" secondAttribute="centerX" id="bZu-EY-HEj"/>
+                            <constraint firstItem="P3h-7W-qeC" firstAttribute="centerY" secondItem="Mfl-i8-Sny" secondAttribute="centerY" id="wVt-NO-uhd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rMG-Jy-k22"/>
                     </view>
                 </viewController>

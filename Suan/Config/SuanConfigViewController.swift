@@ -45,6 +45,8 @@ class SuanConfigViewController: UIViewController {
     // MARK: - SuanButton
     @IBOutlet weak var suanButton: UIButton!
     
+    // MARK: - Const
+    let presentSuanDetailSegueID = "presentSuanDetail"
     
     override func viewDidLoad() {
         super.viewDidLoad()

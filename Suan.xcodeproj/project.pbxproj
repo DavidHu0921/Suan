@@ -20,6 +20,7 @@
 		68122B3320C194A200B7F355 /* SuanConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3220C194A200B7F355 /* SuanConfigViewController.swift */; };
 		68122B3520C194AE00B7F355 /* SuanProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3420C194AE00B7F355 /* SuanProfileViewController.swift */; };
 		68122B3820C1979800B7F355 /* SuanPuzzlesConfigStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */; };
+		68122B3B20C260B700B7F355 /* SuanDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3A20C260B700B7F355 /* SuanDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		68122B3220C194A200B7F355 /* SuanConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanConfigViewController.swift; sourceTree = "<group>"; };
 		68122B3420C194AE00B7F355 /* SuanProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanProfileViewController.swift; sourceTree = "<group>"; };
 		68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanPuzzlesConfigStruct.swift; sourceTree = "<group>"; };
+		68122B3A20C260B700B7F355 /* SuanDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				68122B3220C194A200B7F355 /* SuanConfigViewController.swift */,
+				68122B3920C260A100B7F355 /* ViewControllers */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -178,6 +181,14 @@
 				68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */,
 			);
 			path = DataStruct;
+			sourceTree = "<group>";
+		};
+		68122B3920C260A100B7F355 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68122B3A20C260B700B7F355 /* SuanDetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68122B3B20C260B700B7F355 /* SuanDetailsViewController.swift in Sources */,
 				68122AF820C18C2F00B7F355 /* AppDelegate.swift in Sources */,
 				68122B3320C194A200B7F355 /* SuanConfigViewController.swift in Sources */,
 				68122B3520C194AE00B7F355 /* SuanProfileViewController.swift in Sources */,
