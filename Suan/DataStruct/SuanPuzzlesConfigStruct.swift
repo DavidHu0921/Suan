@@ -9,10 +9,10 @@
 import UIKit
 
 enum calculatingSigns {
-    case plus(Int)
-    case minus(Int)
-    case multiply(Int)
-    case divide(Int)
+    case plus
+    case minus
+    case multiply
+    case divide
 }
 
 struct SuanPuzzlesConfig {

@@ -9,11 +9,13 @@
 import UIKit
 
 class SuanDetailsViewController: UIViewController {
+    
+    var config:SuanPuzzlesConfig? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        print("\(String(describing: config))")
     }
 
     // MARK: - Navigation

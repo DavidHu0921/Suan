@@ -21,6 +21,7 @@
 		68122B3520C194AE00B7F355 /* SuanProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3420C194AE00B7F355 /* SuanProfileViewController.swift */; };
 		68122B3820C1979800B7F355 /* SuanPuzzlesConfigStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */; };
 		68122B3B20C260B700B7F355 /* SuanDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122B3A20C260B700B7F355 /* SuanDetailsViewController.swift */; };
+		688B900320CD79FE00F6ADAC /* SuanUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688B900220CD79FE00F6ADAC /* SuanUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		68122B3420C194AE00B7F355 /* SuanProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanProfileViewController.swift; sourceTree = "<group>"; };
 		68122B3720C1979800B7F355 /* SuanPuzzlesConfigStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanPuzzlesConfigStruct.swift; sourceTree = "<group>"; };
 		68122B3A20C260B700B7F355 /* SuanDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanDetailsViewController.swift; sourceTree = "<group>"; };
+		688B900220CD79FE00F6ADAC /* SuanUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuanUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				68122B3120C1948700B7F355 /* Config */,
 				68122B3020C1948700B7F355 /* Profile */,
 				68122B3620C1974B00B7F355 /* DataStruct */,
+				688B900120CD79E000F6ADAC /* Utils */,
 				68122B0020C18C3000B7F355 /* Assets.xcassets */,
 				68122B0220C18C3000B7F355 /* LaunchScreen.storyboard */,
 				68122B0520C18C3000B7F355 /* Info.plist */,
@@ -189,6 +192,14 @@
 				68122B3A20C260B700B7F355 /* SuanDetailsViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		688B900120CD79E000F6ADAC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				688B900220CD79FE00F6ADAC /* SuanUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +373,7 @@
 			files = (
 				68122B3B20C260B700B7F355 /* SuanDetailsViewController.swift in Sources */,
 				68122AF820C18C2F00B7F355 /* AppDelegate.swift in Sources */,
+				688B900320CD79FE00F6ADAC /* SuanUtils.swift in Sources */,
 				68122B3320C194A200B7F355 /* SuanConfigViewController.swift in Sources */,
 				68122B3520C194AE00B7F355 /* SuanProfileViewController.swift in Sources */,
 				68122B3820C1979800B7F355 /* SuanPuzzlesConfigStruct.swift in Sources */,

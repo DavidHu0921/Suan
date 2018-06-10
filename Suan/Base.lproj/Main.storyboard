@@ -192,6 +192,7 @@
                                     <color key="titleColor" red="0.85098039219999999" green="0.75294117650000003" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="suanButtonAction:" destination="D9F-Hh-HKQ" eventType="touchUpInside" id="7GF-bT-jIJ"/>
                                     <segue destination="ZIK-WX-3Id" kind="presentation" identifier="presentSuanDetail" id="aTA-nd-XAS"/>
                                 </connections>
                             </button>
@@ -219,9 +220,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Suan" id="mt9-CU-cTL"/>
                     <connections>
-                        <outlet property="divdeImageView" destination="AgS-AE-uiJ" id="YZv-VR-caJ"/>
-                        <outlet property="divdeStackView" destination="Yd0-n4-s94" id="oY3-Qj-z1r"/>
-                        <outlet property="divdeTitleLabel" destination="BfC-KG-yYd" id="wpB-XC-fLT"/>
+                        <outlet property="divideImageView" destination="AgS-AE-uiJ" id="YZv-VR-caJ"/>
+                        <outlet property="divideStackView" destination="Yd0-n4-s94" id="oY3-Qj-z1r"/>
+                        <outlet property="divideTitleLabel" destination="BfC-KG-yYd" id="wpB-XC-fLT"/>
                         <outlet property="maxDigitSegmentedControl" destination="KpJ-hp-Om7" id="dfH-11-fhT"/>
                         <outlet property="maxDigitTitleLabel" destination="hpS-2h-TtH" id="t9P-Vd-UqY"/>
                         <outlet property="minusImageView" destination="1VR-al-vls" id="fGu-9K-EQI"/>
